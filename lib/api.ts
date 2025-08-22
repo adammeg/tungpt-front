@@ -120,7 +120,7 @@ class ApiClient {
 
   constructor() {
     // Ensure we're connecting to the correct backend URL
-    this.baseURL = 'http://localhost:5000';
+    this.baseURL = 'https://tungpt-back.onrender.com';
     
     console.log('🔗 API Client connecting to:', this.baseURL);
     

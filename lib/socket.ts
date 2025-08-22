@@ -30,7 +30,7 @@ class SocketClient {
   private typingTimeouts: Map<string, NodeJS.Timeout> = new Map();
 
   constructor() {
-    this.serverUrl = 'http://localhost:5000';
+    this.serverUrl = 'https://tungpt-back.onrender.com';
     console.log('🔌 Socket Client connecting to:', this.serverUrl);
   }
 
